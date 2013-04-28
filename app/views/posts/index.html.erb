@@ -14,7 +14,7 @@
       <%= link_to post.user.username, post.user %>
     </p>
     <p class="post_content">
-    <%= post.content[0..300] + "..." %>
+    <%= simple_format(post.content[0..300] + "...") %>
     </p>
     <br /> <br/>
     
