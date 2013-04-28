@@ -7,20 +7,31 @@ body {
 	font-family:'Source Sans Pro', sans-serif !important;
 }
 
+.container {
+
+}
+
 .navbar-inner {
 	background: none;
 	border: none;
 	box-shadow: none;
 	background-color: #2C0571;
+	border-radius: 0px;
 }
 
 .navbar .nav > li > a, .navbar .brand {
 	color: white;
 	text-shadow: none;
+	border-radius: 0px;
 }
 
 .navbar .nav > li > a:hover {
 	color: #777;
+}
+
+#logo{
+	font-size: 26px;
+	font-weight: bold;
 }
 
 .btn-custom-grey {
@@ -38,4 +49,9 @@ body {
   color: #fff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased;
+}
+
+.post_title {
+	font-size: 20px;
+	font-weight: bold;
 }
