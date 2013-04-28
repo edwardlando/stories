@@ -2,7 +2,7 @@
 
 
 <% if user_signed_in? %>
-    <div id="publish_link">
+    <div id="publish_link" class="purple_hover">
         <%= link_to image_tag("fountainpen.svg"), new_post_path, :method => :get %>
         <%= link_to "PUBLISH SOMETHING NEW", new_post_path, :method => :get %>
     </div>
@@ -18,8 +18,8 @@
         <p class="post_title">
         	<%= link_to post.title, post %>
         </p>
-        <p class="author_username purple_hover">
-          <%= link_to post.user.username, post.user %>
+        <p class="author_name purple_hover">
+          <%= link_to "#{post.user.first_name} #{post.user.last_name}", post.user %>
         </p>
         <p class="post_content">
         <%= simple_format(post.content[0..300] + "...") %>

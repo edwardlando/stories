@@ -6,8 +6,17 @@
   <div><%= f.label :email %>
   <%= f.email_field :email, :autofocus => true %></div>
 
-   <div><%= f.label :username %>
-  <%= f.text_field :username, :autofocus => true %></div>
+  <div><%= f.label :first_name %>
+  <%= f.text_field :first_name, :autofocus => true %></div>
+
+  <div><%= f.label :last_name %>
+  <%= f.text_field :last_name, :autofocus => true %></div>
+
+  <div><%= f.label :twitter %>
+  <%= f.text_field :twitter, :autofocus => true %></div>
+
+  <div><%= f.label :bio %>
+  <%= f.text_area :bio, :autofocus => true, :rows => 5 %></div>
 
   <div><%= f.label :password %>
   <%= f.password_field :password %></div>

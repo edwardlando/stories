@@ -130,7 +130,14 @@ html, body {
 	padding-bottom: 5px;
 	border-top: 5px solid #2C0571; 
 	border-bottom: 5px solid #2C0571; 
+	color: black;
 }
+
+#publish_link a {
+	color: black;
+}
+
+
 
 .buttonize {
 	display: inline;
@@ -146,9 +153,9 @@ html, body {
 	font-weight: 800
 }
 
-.buttonize:hover, a .buttonize:hover {
+.buttonize:hover {
 	background-color: #2C0571;
-	color: #fff !important;
+	color: #fff;
 	border-color: #2C0571;
 }
 
@@ -161,7 +168,7 @@ html, body {
 	color: #2C0571;
 }
 
-.author_username {
+.author_name {
 	font-size: 20px;
 }
 

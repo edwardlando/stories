@@ -10,8 +10,8 @@
   <%= @post.title %>
 </p> 
 
-<p class="post_author">
-  <%= link_to @post.user.username, @post.user %>
+<p class="post_author purple_hover">
+  <%= link_to "#{post.user.first_name} #{post.user.last_name}", post.user %>
 </p> <br/>
 
 <p>

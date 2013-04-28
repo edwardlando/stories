@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<h1><%= @user.username %></h1>
+<h1><%= @user.first_name %> <%= @user.last_name %> </h1>
 
 <div class="buttonize user_twitter">
-	<%= link_to @user.twitter, "http://www.twitter.com/" + @user.twitter %>
+	<%= link_to "@"+@user.twitter, "http://www.twitter.com/" + @user.twitter %>
 </div>
 
 <div class="user_bio"><%= @user.bio %></div>
