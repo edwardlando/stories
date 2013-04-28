@@ -13,7 +13,9 @@
 <div class="user_posts">
 	<% @user.posts.each do |post| %>
 	  
-	    <%= link_to post.title, post, :class => "post_title" %> <br/><br/>
+	    <p class="purple_hover">
+	    	<%= link_to post.title, post, :class => "post_title" %> 
+	    </p><br/><br/>
 	    
 	    <p class="post_content">
 	    <%= simple_format(post.content[0..300] + "...") %>
