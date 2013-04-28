@@ -14,9 +14,13 @@
 	    <%= link_to post.title, post, :class => "post_title" %> <br/><br/>
 	    
 	    <p class="post_content">
-	    <%= post.content[0..300] + "..." %>
+	    <%= simple_format(post.content[0..300] + "...") %>
 	    </p>
 	    <br /> <br/>
 	    
 	<% end %>
 </div>
+
+<% if @user == current_user %>
+	<%= link_to "Edit", edit_user_path(@user) %>
+<% end %>

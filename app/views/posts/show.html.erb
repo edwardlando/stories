@@ -2,7 +2,7 @@
 
 <p class="post_date">
   <%= Time.at(
-    Date.today.to_time.to_i
+    @post.created_at.to_time.to_i
     ).strftime("%B %e, %Y ") %>
 </p> 
 
@@ -11,7 +11,7 @@
 </p> 
 
 <p class="post_author">
-  <%= @post.user.username %>
+  <%= link_to @post.user.username, @post.user %>
 </p> <br/>
 
 <p>

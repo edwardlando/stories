@@ -40,7 +40,6 @@ html, body {
 	font-weight: bold;
 	float: left;
 	margin-left: 20px;
-	margin-top: 150px;
 }
 
 #logo a, #footer_logo a {
@@ -102,4 +101,20 @@ a:hover {
 	background: none;
 	color: white !important;
 	background-color: #2C0571 !important;
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 142px; /* .push must be the same height as .footer */
 }

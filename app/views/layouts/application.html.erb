@@ -8,11 +8,14 @@
 </head>
 <body>
 
-<%= render 'layouts/header' %>
-<div class="container">
-	<%= yield %>
-</div>
-<%= render 'layouts/footer' if @have_footer %>
+	<%= render 'layouts/header' %>
+	<div class="container">
+		<%= yield %>
+	</div>
+	<div class="push"></div>
+	<div class="footer">
+		<%= render 'layouts/footer' if @have_footer %>
+	</div>
 
 </body>
 </html>
