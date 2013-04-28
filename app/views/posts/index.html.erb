@@ -1,0 +1,17 @@
+
+
+
+<% @posts.each do |post| %>
+  
+    <%= link_to post.title, post %>
+    <%= post.user.username unless post.user.nil? %>
+    <%= post.content %>
+
+    <br />
+    
+<% end %>
+
+
+
+
+
