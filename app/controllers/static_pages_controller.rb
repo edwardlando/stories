@@ -4,4 +4,7 @@ class StaticPagesController < ApplicationController
 
   def membership
   end
+
+  def curious
+  end
 end

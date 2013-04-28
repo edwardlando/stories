@@ -2,14 +2,21 @@
 
 <h1><%= @user.username %></h1>
 
+<p><%= @user.twitter %></p>
 
-<% @user.posts.each do |post| %>
-  
-    <%= link_to post.title, post, :class => "post_title" %>
-    
-    <p class="post_content">
-    <%= post.content[0..300] + "..." %>
-    </p>
-    <br /> <br/>
-    
-<% end %>
+<div><%= @user.bio %></div>
+
+<br/> <br/> <br/>
+
+<div class="user_posts">
+	<% @user.posts.each do |post| %>
+	  
+	    <%= link_to post.title, post, :class => "post_title" %> <br/><br/>
+	    
+	    <p class="post_content">
+	    <%= post.content[0..300] + "..." %>
+	    </p>
+	    <br /> <br/>
+	    
+	<% end %>
+</div>
