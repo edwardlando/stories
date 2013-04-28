@@ -34,6 +34,11 @@ body {
 	font-weight: bold;
 }
 
+#logo:hover {
+	background-color: transparent;
+	color: #0081c2;
+}
+
 .btn-custom-grey {
   background-color: hsl(0, 0%, 7%) !important;
   background-repeat: repeat-x;

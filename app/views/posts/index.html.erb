@@ -9,7 +9,7 @@
   
     <%= link_to post.title, post, :class => "post_title" %>
     <p class="author_username">
-      <%= post.user.username unless post.user.nil? %>
+      <%= link_to post.user.username %>
     </p>
     <p class="post_content">
     <%= post.content[0..300] + "..." %>
