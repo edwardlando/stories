@@ -3,8 +3,19 @@ html {
   overflow-y: scroll;
 }
 
-html, body {
-	font-family:'Source Sans Pro', sans-serif !important;
+@font-face {
+    font-family: 'ValentinaRegular';
+    src: url('valentina-regular.eot');
+    src: url('valentina-regular.eot') format('embedded-opentype'),
+         url('valentina-regular.woff') format('woff'),
+         url('valentina-regular.ttf') format('truetype'),
+         url('valentina-regular.svg#ValentinaRegular') format('svg');
+}
+
+
+
+html, body, a, p {
+	font-family:'ValentinaRegular' !important;
 }
 
 a:hover {
@@ -56,9 +67,14 @@ a:hover {
 
 }
 
-#plus {
-	font-size: 34px;
+#star {
+	font-size: 42px;
 	font-weight: bold;
+	margin-top: 7px;
+}
+
+#star:hover {
+	color: white;
 }
 
 #plus:hover {
@@ -90,10 +106,6 @@ a:hover {
 .post_title {
 	font-size: 24px;
 	font-weight: bold;
-}
-
-.post_author {
-	text-transform: lowercase; 
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
@@ -160,6 +172,10 @@ html, body {
 	margin-top: 20px;
 }
 
+a:hover {
+	color: black !important;
+}
+
 .purple_hover a:hover {
 	color: #2C0571;
 }
@@ -168,14 +184,19 @@ html, body {
 	color: black;
 }
 
-.author_name {
+.post_author {
 	font-size: 20px;
 }
 
 .content {
-	max-width: 780px;
+	max-width: 650px;
 }
 
+#list {
+	height: 30px;
+	width: 30px;
+	color: white;
+}
 
 
 

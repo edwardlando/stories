@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ValentinaRegular';
+    src: url('valentina-regular.eot');
+    src: url('valentina-regular.eot') format('embedded-opentype'),
+         url('valentina-regular.woff') format('woff'),
+         url('valentina-regular.ttf') format('truetype'),
+         url('valentina-regular.svg#ValentinaRegular') format('svg');
+}
