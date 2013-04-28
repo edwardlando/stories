@@ -3,7 +3,7 @@ html {
   overflow-y: scroll;
 }
 
-body {
+html, body {
 	font-family:'Source Sans Pro', sans-serif !important;
 }
 
@@ -30,18 +30,31 @@ body {
 }
 
 #logo{
-	font-size: 26px;
+	font-size: 36px;
 	font-weight: bold;
+	text-align: center;
+}
+
+#footer_logo {
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+}
+
+#logo a {
+	color: black !important
 }
 
 #logo:hover {
 	background-color: transparent;
 	color: lightgrey;
+
 }
 
 a:hover {
 	background-color: transparent !important;
 	color: black !important;
+	text-decoration: none;
 }
 
 .btn-custom-grey {
@@ -64,6 +77,10 @@ a:hover {
 .post_title {
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.post_title a {
+	color: black !important;
 }
 
 .post_author {

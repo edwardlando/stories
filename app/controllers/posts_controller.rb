@@ -3,6 +3,7 @@ class PostsController < ApplicationController
   # GET /posts.json
 
   before_filter :authenticate_user!, except: [ :index, :show ] 
+  before_filter :have_footer, except: [:index]
 
   def index
     @posts = Post.all
@@ -83,5 +84,9 @@ class PostsController < ApplicationController
       format.html { redirect_to posts_url }
       format.json { head :no_content }
     end
+  end
+
+  def have_footer
+    @have_footer = true
   end
 end
