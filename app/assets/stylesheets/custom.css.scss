@@ -39,9 +39,11 @@ html, body {
 	font-size: 24px;
 	font-weight: bold;
 	float: left;
+	margin-left: 20px;
+	margin-top: 150px;
 }
 
-#logo a {
+#logo a, #footer_logo a {
 	color: black !important
 }
 
@@ -49,6 +51,15 @@ html, body {
 	background-color: transparent;
 	color: lightgrey;
 
+}
+
+#plus {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+#plus:hover {
+	color: white !important;
 }
 
 a:hover {
@@ -85,4 +96,10 @@ a:hover {
 
 .post_author {
 	text-transform: lowercase; 
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	background: none;
+	color: white !important;
+	background-color: #2C0571 !important;
 }

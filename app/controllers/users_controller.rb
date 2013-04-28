@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_filter :have_footer 
   # GET /users
   # GET /users.json
   def index
@@ -79,5 +80,9 @@ class UsersController < ApplicationController
       format.html { redirect_to users_url }
       format.json { head :no_content }
     end
+  end
+
+  def have_footer
+    @have_footer = true
   end
 end
