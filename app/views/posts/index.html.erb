@@ -1,5 +1,5 @@
 <% if user_signed_in? %>
-    <%= button_to "Submit a new post", new_post_path, :class => "btn btn-large btn-primary", :method => :get %>
+    <%= button_to "Submit a new post", new_post_path, :class => "btn btn-custom-grey", :method => :get %>
 <% end %>
 
 
@@ -7,11 +7,14 @@
 
 <% @posts.each do |post| %>
   
-    <%= link_to post.title, post %>
-    <%= post.user.username unless post.user.nil? %>
-    <%= post.content[0..100] + "..." %>
-
-    <br />
+    <%= link_to post.title, post, :class => "post_title" %>
+    <p class="author_username">
+      <%= post.user.username unless post.user.nil? %>
+    </p>
+    <p class="post_content">
+    <%= post.content[0..300] + "..." %>
+    </p>
+    <br /> <br/>
     
 <% end %>
 
