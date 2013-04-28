@@ -7,6 +7,10 @@ html, body {
 	font-family:'Source Sans Pro', sans-serif !important;
 }
 
+a:hover {
+	cursor: pointer;
+}
+
 .container {
 
 }
@@ -63,7 +67,6 @@ html, body {
 
 a:hover {
 	background-color: transparent !important;
-	color: black !important;
 	text-decoration: none;
 }
 
@@ -85,7 +88,7 @@ a:hover {
 }
 
 .post_title {
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
@@ -118,3 +121,57 @@ html, body {
 .footer, .push {
 	height: 142px; /* .push must be the same height as .footer */
 }
+
+#publish_link {
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	border-top: 5px solid #2C0571; 
+	border-bottom: 5px solid #2C0571; 
+}
+
+.buttonize {
+	display: inline;
+	padding: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #fff;
+	color: #999;
+	border: 3px solid #f8f8f8;
+	border-radius: 50px;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 800
+}
+
+.buttonize:hover, a .buttonize:hover {
+	background-color: #2C0571;
+	color: #fff !important;
+	border-color: #2C0571;
+}
+
+
+.user_bio {
+	margin-top: 20px;
+}
+
+.purple_hover a:hover {
+	color: #2C0571;
+}
+
+.author_username {
+	font-size: 20px;
+}
+
+.content {
+	max-width: 780px;
+}
+
+
+
+
+
+
+
