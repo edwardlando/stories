@@ -1,12 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Title:</b>
+<p class="post_title">
   <%= @post.title %>
 </p>
 
+<p class="post_author">
+  <%= @post.user.username %>
+</p>
+
 <p>
-  <b>Content:</b>
   <%= @post.content %>
 </p>
 
@@ -14,4 +16,3 @@
 	<%= link_to 'Edit', edit_post_path(@post) %> |
 <% end %> 
 
-<%= link_to 'Back', posts_path %>

@@ -57,6 +57,10 @@ Stories::Application.routes.draw do
 
   get "static_pages/about"
   get "static_pages/membership"
+
+  get "users/show"
+
+  match '/users/:id', :to => 'users#show', :as => :user
   
 
   # See how all your routes lay out with "rake routes"

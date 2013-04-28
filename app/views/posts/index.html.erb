@@ -3,13 +3,11 @@
 <% end %>
 
 
-
-
 <% @posts.each do |post| %>
   
     <%= link_to post.title, post, :class => "post_title" %>
     <p class="author_username">
-      <%= link_to post.user.username %>
+      <%= link_to post.user.username, post.user %>
     </p>
     <p class="post_content">
     <%= post.content[0..300] + "..." %>

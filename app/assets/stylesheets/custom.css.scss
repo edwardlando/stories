@@ -36,7 +36,12 @@ body {
 
 #logo:hover {
 	background-color: transparent;
-	color: #0081c2;
+	color: lightgrey;
+}
+
+a:hover {
+	background-color: transparent !important;
+	color: black !important;
 }
 
 .btn-custom-grey {
