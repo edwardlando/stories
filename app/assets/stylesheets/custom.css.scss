@@ -63,10 +63,19 @@ a:hover {
 }
 
 #footer_logo {
+	width: 400px;
 	font-size: 24px;
 	font-weight: bold;
 	margin-top: 40px;
 	float: left;
+}
+
+#copyright {
+	width: 120px;
+	float: right;
+	margin-top: 55px;
+	margin-right: 20px;
+	color: #DDD;
 }
 
 #footer_logo a {
