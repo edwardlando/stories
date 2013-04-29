@@ -15,9 +15,9 @@
 <div class="content">
     <% @posts.each do |post| %>
       
-        <p class="post_title black_hover">
+        <div class="post_title black_hover">
         	<%= link_to post.title, post %>
-        </p>
+        </div>
         <p class="post_author purple_hover">
           <%= link_to "#{post.user.first_name} #{post.user.last_name}", post.user %>
         </p>

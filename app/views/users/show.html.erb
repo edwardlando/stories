@@ -19,9 +19,9 @@
 		    	<%= link_to post.title, post, :class => "post_title" %> 
 		    </p><br/>
 		    
-		    <p class="post_content">
-		    <%= simple_format(post.content[0..300] + "...") %>
-		    </p>
+		    <div class="post_content">
+			    <%= simple_format(post.content[0..300] + "...") %>
+		    </div>
 		    <br /> <br/>
 		    
 		<% end %>

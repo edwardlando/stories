@@ -112,9 +112,18 @@ a:hover {
   -webkit-font-smoothing: antialiased;
 }
 
-.content .post_title {
+.content .post_title p, .content .post_title a {
 	font-size: 24px;
 	font-weight: bold;
+}
+
+.post_title, .post_title a, .post_title p {
+	text-transform: uppercase;
+	color: black !important;
+}
+
+.post_title {
+	margin-bottom: 10px;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
@@ -222,6 +231,17 @@ a:hover {
 
 .post_content p {
 	line-height: 200% !important;
+	font-family: "Times New Roman" !important;
+
+}
+
+.post_content p:first-child:first-letter { 
+	float: left;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
 }
 
 

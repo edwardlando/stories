@@ -8,9 +8,9 @@
 	    ).strftime("%B %e, %Y ") %>
 	</p> 
 
-	<p class="post_title">
-	  <%= @post.title %>
-	</p> 
+	<div class="post_title">
+	  <p><%= @post.title %></p>
+	</div> 
 
 	<p class="post_author purple_hover">
 	  <%= link_to "#{@post.user.first_name} #{@post.user.last_name}", @post.user %>
