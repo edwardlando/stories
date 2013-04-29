@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'NeutraTextBook';
+    src: url('neutra.eot');
+    src: url('neutra.eot') format('embedded-opentype'),
+         url('neutra.woff') format('woff'),
+         url('neutra.ttf') format('truetype'),
+         url('neutra.svg#NeutraTextBook') format('svg');
+}
