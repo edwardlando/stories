@@ -3,10 +3,12 @@
 	<p id="notice"><%= notice %></p>
 
 	<h1><%= @user.first_name %> <%= @user.last_name %> </h1>
-
-	<div class="user_twitter">
-		<%= link_to "@"+@user.twitter, "http://www.twitter.com/" + @user.twitter %>
-	</div>
+    
+    <% if @user.twitter != "" %>
+		<div class="user_twitter">
+			<%= link_to "@"+@user.twitter, "http://www.twitter.com/" + @user.twitter %>
+		</div>
+	<% end %>
 
 	<div class="user_bio"><%= @user.bio %></div>
 
