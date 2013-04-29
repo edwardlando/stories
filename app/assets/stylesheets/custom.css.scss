@@ -14,9 +14,14 @@ html {
 
 
 
-html, body, a, p {
+html, body, a, p, span, input {
 	font-family:'ValentinaRegular' !important;
 }
+
+.content p, .content div { 
+	font-size: 16px;
+}
+
 
 a:hover {
 	cursor: pointer;
@@ -53,8 +58,12 @@ a:hover {
 #footer_logo {
 	font-size: 24px;
 	font-weight: bold;
+	margin-top: 40px;
 	float: left;
-	margin-left: 20px;
+}
+
+#footer_logo a {
+	margin-left: 50px;
 }
 
 #logo a, #footer_logo a {
@@ -103,7 +112,7 @@ a:hover {
   -webkit-font-smoothing: antialiased;
 }
 
-.post_title {
+.content .post_title {
 	font-size: 24px;
 	font-weight: bold;
 }
@@ -184,12 +193,13 @@ a:hover {
 	color: black;
 }
 
-.post_author {
+.content .post_author {
 	font-size: 20px;
 }
 
 .content {
-	max-width: 650px;
+	max-width: 620px;
+	margin: 0 auto;
 }
 
 #list {
@@ -198,7 +208,21 @@ a:hover {
 	color: white;
 }
 
+.edit {
+	font-weight: bold;
+}
 
+.post_title_input {
+	width: 300px;
+}
+
+.post_content_input {
+	width: 580px;
+}
+
+.post_content p {
+	line-height: 200% !important;
+}
 
 
 

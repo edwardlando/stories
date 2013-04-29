@@ -1,24 +1,27 @@
-<p id="notice"><%= notice %></p>
+<div class="content">
 
-<p class="post_date">
-  <%= Time.at(
-    @post.created_at.to_time.to_i
-    ).strftime("%B %e, %Y ") %>
-</p> 
+	<p id="notice"><%= notice %></p>
 
-<p class="post_title">
-  <%= @post.title %>
-</p> 
+	<p class="post_date">
+	  <%= Time.at(
+	    @post.created_at.to_time.to_i
+	    ).strftime("%B %e, %Y ") %>
+	</p> 
 
-<p class="post_author purple_hover">
-  <%= link_to "#{@post.user.first_name} #{@post.user.last_name}", @post.user %>
-</p> <br/>
+	<p class="post_title">
+	  <%= @post.title %>
+	</p> 
 
-<p>
-  <%= simple_format(@post.content) %>
-</p>
+	<p class="post_author purple_hover">
+	  <%= link_to "#{@post.user.first_name} #{@post.user.last_name}", @post.user %>
+	</p> <br/>
 
-<% if @post.user == current_user %>
-	<%= link_to 'Edit', edit_post_path(@post) %> 
-<% end %> 
+	<div class="post_content">
+	  <%= simple_format(@post.content) %>
+	</div>
 
+	<% if @post.user == current_user %>
+		<%= link_to 'Edit your piece', edit_post_path(@post), :class => "edit" %> 
+	<% end %> 
+
+</div>
