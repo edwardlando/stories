@@ -11,6 +11,14 @@ futuram-webfont.woff: futuram-webfont-ce32f4edf808243aeded9ea00f4da637.woff
 futuram-webfont/index.woff: futuram-webfont-ce32f4edf808243aeded9ea00f4da637.woff
 generator_config.txt: generator_config-89e8e14220f484ca5e7be163a35676cb.txt
 generator_config/index.txt: generator_config-89e8e14220f484ca5e7be163a35676cb.txt
+neutra.eot: neutra-8ef845f23572a2855f71acd760fe5314.eot
+neutra/index.eot: neutra-8ef845f23572a2855f71acd760fe5314.eot
+neutra.svg: neutra-5b5d6dd40256fdd433f3eba6612894b6.svg
+neutra/index.svg: neutra-5b5d6dd40256fdd433f3eba6612894b6.svg
+neutra.ttf: neutra-3f6a582f0f5988076b2f8fda222bf15a.ttf
+neutra/index.ttf: neutra-3f6a582f0f5988076b2f8fda222bf15a.ttf
+neutra.woff: neutra-f2bf65559174b103f61eda4a9fed1008.woff
+neutra/index.woff: neutra-f2bf65559174b103f61eda4a9fed1008.woff
 poiret_oneregular/generator_config.txt: poiret_oneregular/generator_config-89e8e14220f484ca5e7be163a35676cb.txt
 poiret_oneregular/generator_config/index.txt: poiret_oneregular/generator_config-89e8e14220f484ca5e7be163a35676cb.txt
 poiret_oneregular/poiretone-regular-demo.html: poiret_oneregular/poiretone-regular-demo-6f112c864e9be435c579f3679c964b9a.html
@@ -71,8 +79,8 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-76bbacda0311c42705dcd715b1875efe.js
 application/index.js: application-76bbacda0311c42705dcd715b1875efe.js
-application.css: application-bad206b90df0aa87c9a6d80efc26f303.css
-application/index.css: application-bad206b90df0aa87c9a6d80efc26f303.css
+application.css: application-e76add91d6f41c0889aa03399b418069.css
+application/index.css: application-e76add91d6f41c0889aa03399b418069.css
 fontawesome-webfont.eot: fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot
 fontawesome-webfont/index.eot: fontawesome-webfont-635909f146e208b3509acdf3b154bf0d.eot
 fontawesome-webfont.ttf: fontawesome-webfont-6a4e273908b7e43d9e479d38b8ae5957.ttf
