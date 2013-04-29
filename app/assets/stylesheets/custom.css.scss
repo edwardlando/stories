@@ -96,13 +96,13 @@ a:hover {
 }
 
 #star {
-	font-size: 42px;
+	font-size: 48px;
 	font-weight: bold;
-	margin-top: 7px;
+	margin-top: 19px;
 }
 
 #star:hover {
-	color: white;
+	color: #888;
 }
 
 #plus:hover {
@@ -252,6 +252,20 @@ a:hover {
 	line-height: 200% !important;
 	font-family: "Times New Roman" !important;
 
+}
+
+.social_media_sharing {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	display: inline-block;
+}
+
+#facebook_recommend {
+	margin-bottom: 10px;
+}
+
+a.dropdown-toggle:hover {
+	color: #888 !important;
 }
 
 /*

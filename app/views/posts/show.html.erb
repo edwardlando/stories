@@ -2,6 +2,7 @@
 
 	<p id="notice"><%= notice %></p>
 
+
 	<p class="post_date">
 	  <%= Time.at(
 	    @post.created_at.to_time.to_i
@@ -15,6 +16,16 @@
 	<p class="post_author purple_hover">
 	  <%= link_to "#{@post.user.first_name} #{@post.user.last_name}", @post.user %>
 	</p> <br/>
+
+	<div class="social_media_sharing">
+
+		<a href="https://twitter.com/share" id="tweet" class="twitter-share-button social_media" data-via="Filadelfian">Tweet</a>
+
+		<a href="https://www.facebook.com/sharer/sharer.php?u=
+		    http://www.newyorker.com/online/blogs/shouts/2013/04/sorry-i-got-hacked.html"
+			target="_blank" onclick="s_objectID=&quot;https://www.facebook.com/sharer/sharer.php?u=http://www.newyorker.com/online/blogs/shouts/2013/04_1&quot;;return this.s_oc?this.s_oc(e):true"><div class="fb-share-count"><span></span></div></a>
+
+	</div>
 
 	<div class="post_content">
 	  <%= simple_format(@post.content) %>
