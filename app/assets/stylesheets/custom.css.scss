@@ -274,13 +274,14 @@ a:hover {
 	display: inline-block;
 }
 
-#facebook_recommend {
-	margin-bottom: 10px;
+.social_media {
+	float: left;
 }
 
 a.dropdown-toggle:hover {
 	color: #888 !important;
 }
+
 
 /*
 .post_content p:first-child:first-letter { 
