@@ -1,4 +1,7 @@
 class Post < ActiveRecord::Base
+  extend FriendlyId
+  friendly_id :title
+
   attr_accessible :content, :title
 
   belongs_to :user
