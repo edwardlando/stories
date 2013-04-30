@@ -6,7 +6,7 @@ class PostsController < ApplicationController
   before_filter :have_footer, except: [:index]
 
   def index
-    @posts = Post.all
+    @posts = Post.all.sort { |p1, p2| p2.created_at <=> p1.created_at }
 
     respond_to do |format|
       format.html # index.html.erb
