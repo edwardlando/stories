@@ -16,18 +16,21 @@
 
 <div class="content">
     <% @posts.each do |post| %>
-      
-        <div class="post_title black_hover">
-        	<%= link_to post.title, post %>
-        </div>
-        <p class="post_author purple_hover">
-          <%= link_to "#{post.user.first_name} #{post.user.last_name}", post.user %>
-        </p>
-        <div class="post_content">
-        <%= simple_format(post.content[0..300] + "...") %>
-        </div>
-        <br /> <br/>
         
+        <div class="post">
+            <p class="post_date">
+                <%= Time.at(post.created_at.to_time.to_i).strftime("%B %e, %Y ") %>
+            </p> 
+            <div class="post_title purple_hover">
+            	<%= link_to post.title, post %>
+            </div>
+            <p class="post_author purple_hover">
+              <%= link_to "#{post.user.first_name} #{post.user.last_name}", post.user %>
+            </p>
+            <div class="post_content">
+            <%= simple_format(post.content[0..300] + "...") %>
+            </div>
+        </div>        
     <% end %>
 </div>
 
