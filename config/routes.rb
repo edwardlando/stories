@@ -1,4 +1,5 @@
 Stories::Application.routes.draw do
+
   resources :posts
 
 
