@@ -164,8 +164,8 @@ a:hover {
 	margin-bottom: 15px;
 }
 
-.post_title p {
-	line-height: 130%;
+.post_title p, .post_title a {
+	line-height: 130% !important;
 }
 
 .post {
