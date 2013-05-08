@@ -24,6 +24,9 @@
             <div class="post_title purple_hover">
             	<%= link_to post.title, post %>
             </div>
+            <div>
+                <%= image_tag post.image_url(:thumb) if post.image? %>
+            </div>
             <p class="post_author purple_hover">
               <%= link_to "#{post.user.first_name} #{post.user.last_name}", post.user %>
             </p>

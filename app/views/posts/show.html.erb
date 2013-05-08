@@ -17,6 +17,10 @@
 	  <%= link_to "#{@post.user.first_name} #{@post.user.last_name}", @post.user %>
 	</p> <br/>
 
+	<div>
+        <%= image_tag @post.image_url(:thumb) if @post.image? %>
+    </div>
+           
 	<div class="social_media_sharing">
 
 
