@@ -31,7 +31,7 @@
                 <div class="post_author purple_hover">
                   <%= link_to "#{post.user.first_name} #{post.user.last_name}", post.user %>
                 </div>
-            </div> <br/> <br/> <br/> <br/>
+            </div> 
             <div class="post_content">
             <%= simple_format(post.content[0..300] + "...") %>
             </div>

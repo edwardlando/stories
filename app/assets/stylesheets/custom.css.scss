@@ -284,15 +284,42 @@ a:hover {
 	margin-bottom: 20px;
 }
 
-.post_content p {
+.main_post_content {
+	margin-top: 26px;
+	margin-bottom: 20px;
+}
+
+.post_content p, .main_post_content p {
 	line-height: 200% !important;
 	font-family: "Palatino" !important;
 
 }
 
-.post_heading, .post_image {
+.main_post_heading, .post_image {
 	float: left;
 }
+
+.post_heading {
+	margin-bottom: 30px;
+}
+
+.main_post_heading {
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.main_post_body {
+	display: block;
+	margin-top: 20px;
+}
+
+.main_post_image {
+	margin-left: 7px;
+	margin-bottom: 7px;
+	max-width: 300px;
+	float: right;
+}
+
 
 .social_media_sharing {
 	margin-top: 8px;
