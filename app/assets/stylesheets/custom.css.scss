@@ -248,6 +248,14 @@ a:hover {
 	font-size: 20px;
 }
 
+.post_date {
+	margin-bottom: 10px;
+}
+
+.post_image {
+	margin-right: 20px;
+}
+
 .content {
 	max-width: 610px;
 	margin: 0 auto;
@@ -280,6 +288,10 @@ a:hover {
 	line-height: 200% !important;
 	font-family: "Palatino" !important;
 
+}
+
+.post_heading, .post_image {
+	float: left;
 }
 
 .social_media_sharing {
