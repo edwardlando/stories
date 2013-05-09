@@ -38,6 +38,7 @@ gem 'friendly_id'
 gem 'kaminari'
 gem "rmagick"
 gem "carrierwave"
+gem 'redactor-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

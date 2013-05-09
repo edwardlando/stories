@@ -25,9 +25,11 @@
   </div>
   <div class="field">
     <%= f.label :content %>
-    <%= f.text_area :content, :rows => 15, :class => "post_content_input" %>
+    <%= f.text_area :content, :class => "post_content_input redactor" %>
   </div>
   <div class="actions">
     <%= f.submit "Publish", :class => "btn btn-custom-grey" %>
   </div>
 <% end %>
+
+
