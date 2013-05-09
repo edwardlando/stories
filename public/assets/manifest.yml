@@ -67,6 +67,10 @@ vevey/vevey-webfont.ttf: vevey/vevey-webfont-f41719f3a1594dd3890f99e4af5aba7c.tt
 vevey/vevey-webfont/index.ttf: vevey/vevey-webfont-f41719f3a1594dd3890f99e4af5aba7c.ttf
 vevey/vevey-webfont.woff: vevey/vevey-webfont-93eb8e5e03b2c3a86d1161acab717434.woff
 vevey/vevey-webfont/index.woff: vevey/vevey-webfont-93eb8e5e03b2c3a86d1161acab717434.woff
+apple-touch-icon-precomposed.png: apple-touch-icon-precomposed-4967eda4d30ee69a72fa6b4babc9474e.png
+apple-touch-icon-precomposed/index.png: apple-touch-icon-precomposed-4967eda4d30ee69a72fa6b4babc9474e.png
+apple-touch-icon.png: apple-touch-icon-4967eda4d30ee69a72fa6b4babc9474e.png
+apple-touch-icon/index.png: apple-touch-icon-4967eda4d30ee69a72fa6b4babc9474e.png
 favicon.ico: favicon-7f15d672b9c3488b6904bab538fc9441.ico
 favicon/index.ico: favicon-7f15d672b9c3488b6904bab538fc9441.ico
 fountainpen.svg: fountainpen-e6215cea634d18475f94a51f95b8b145.svg
