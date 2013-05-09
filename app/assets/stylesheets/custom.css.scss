@@ -280,9 +280,13 @@ a:hover {
 }
 
 .post_content_input, .redactor_editor {
-	width: 580px;
 	height: 400px;
 }
+
+.redactor_box {
+	width: 700px;
+}
+
 
 .post_content {
 	margin-top: 26px;
