@@ -37,6 +37,7 @@ gem "twitter-bootstrap-rails"
 gem 'friendly_id'
 gem 'kaminari'
 gem "rmagick"
+gem "mini_magick"
 gem "carrierwave"
 gem 'redactor-rails'
 
