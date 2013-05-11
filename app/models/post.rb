@@ -2,7 +2,8 @@ class Post < ActiveRecord::Base
   extend FriendlyId
   friendly_id :title, use: :slugged
 
-  attr_accessible :content, :title, :image, :remote_image_url
+  attr_accessible :content, :title, :image, :remote_image_url,
+  :user_id, :slug
 
   mount_uploader :image, ImageUploader
 
