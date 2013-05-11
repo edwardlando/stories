@@ -8,6 +8,18 @@ ActiveAdmin.register Post do
 		column :image
 	    default_actions
 	end  
+
+	form do |f|
+      f.inputs "Details" do
+        f.input :title
+      end
+      f.inputs "Content" do
+        f.input :content
+        f.input :slug
+        f.input :image
+        f.input :remote_image_url
+      end
+      f.actions
+    end
+
 end
-
-
