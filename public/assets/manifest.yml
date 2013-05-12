@@ -1,4 +1,12 @@
 ---
+font.eot: font-c5a7aedd62284ded96582d6bf17c62b6.eot
+font/index.eot: font-c5a7aedd62284ded96582d6bf17c62b6.eot
+font.svg: font-c60767a8ddd936fa0f38b98c54d36cdb.svg
+font/index.svg: font-c60767a8ddd936fa0f38b98c54d36cdb.svg
+font.ttf: font-f972947922ff6cc8bff3c5f49e1075c8.ttf
+font/index.ttf: font-f972947922ff6cc8bff3c5f49e1075c8.ttf
+font.woff: font-97d6b7369386be7e6d4af17f9ef844db.woff
+font/index.woff: font-97d6b7369386be7e6d4af17f9ef844db.woff
 futuram-demo.html: futuram-demo-2c564cdd6dd9869f600dfa705dac3107.html
 futuram-demo/index.html: futuram-demo-2c564cdd6dd9869f600dfa705dac3107.html
 futuram-webfont.eot: futuram-webfont-a6075f8b6772ce96c3ca740995b21682.eot
@@ -87,8 +95,8 @@ application.js: application-af29a5ea3e54f1ba61932b964fe8ac08.js
 application/index.js: application-af29a5ea3e54f1ba61932b964fe8ac08.js
 active_admin.css: active_admin-f6eab3903eabe26e294bb5e070593cb6.css
 active_admin/index.css: active_admin-f6eab3903eabe26e294bb5e070593cb6.css
-application.css: application-55f5446622679b0db15141d71ca78709.css
-application/index.css: application-55f5446622679b0db15141d71ca78709.css
+application.css: application-9818ed597d38d1f2c0946c7ae012e28d.css
+application/index.css: application-9818ed597d38d1f2c0946c7ae012e28d.css
 active_admin/admin_notes_icon.png: active_admin/admin_notes_icon-25b05cd8197f7a271d0624853a6dbdd5.png
 active_admin/admin_notes_icon/index.png: active_admin/admin_notes_icon-25b05cd8197f7a271d0624853a6dbdd5.png
 active_admin/datepicker/datepicker-header-bg.png: active_admin/datepicker/datepicker-header-bg-6f0baad739953cb1a0413c031841e82f.png

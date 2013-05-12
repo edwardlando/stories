@@ -22,6 +22,15 @@ html {
          url('neutra.svg#NeutraDisplayTitling') format('svg');
 }
 
+@font-face {
+    font-family: 'NeutraDisplayBold';
+    src: url('font.eot');
+    src: url('font.eot') format('embedded-opentype'),
+         url('font.woff') format('woff'),
+         url('font.ttf') format('truetype'),
+         url('font.svg#NeutraDisplayBold') format('svg');
+}
+
 
 
 html, body, a, p, span, input {
@@ -68,7 +77,8 @@ a:hover {
 }
 
 #tagline {
-	font-size: 24px;
+	font-family: 'NeutraDisplayBold';
+	font-size: 36px;
 	text-align: center;
 	color: #666;
 	margin-bottom: 40px;
@@ -153,6 +163,16 @@ a:hover {
 .post_title, .post_title a, .post_title p {
 	text-transform: uppercase;
 	color: black !important;
+}
+
+.post_author, .post_author a {
+	font-family: 'NeutraDisplayBold' !important;
+	font-size: 30px;
+	color: #666 !important;
+}
+
+.post_date p, .post_date {
+	color: #666 !important;
 }
 
 .post_title {
