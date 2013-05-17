@@ -19,9 +19,6 @@
 	</div> 
 	
 	<div class="main_post_body">
-		<div class="main_post_image">
-	        <%= image_tag @post.image_url(:main) if @post.image? %>
-	    </div> 
 		<div class="main_post_content">
 		  <%= simple_format(@post.content) %>
 		</div>
