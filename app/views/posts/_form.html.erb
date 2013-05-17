@@ -15,14 +15,7 @@
     <%= f.label :title %>
     <%= f.text_field :title, :class => "post_title_input" %>
   </div>
-  <div class="field">
-    <%= f.label :image, "Image for your piece" %>
-    <%= f.file_field :image %>
-  </div>
-  <div class="field">
-    <%= f.label :remote_image_url, "or image URL" %>
-    <%= f.text_field :remote_image_url %>
-  </div>
+  
   <div class="field">
     <%= f.label :content %>
     <%= f.text_area :content, :class => "post_content_input redactor" %>

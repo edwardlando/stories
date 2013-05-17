@@ -41,6 +41,9 @@ gem "mini_magick"
 gem "carrierwave"
 gem 'redactor-rails'
 gem 'activeadmin'
+gem 'fog'
+gem 'carrierwave_direct'
+gem 'sidekiq'
 
 
 # To use ActiveModel has_secure_password
